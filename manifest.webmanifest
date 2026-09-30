@@ -1,0 +1,31 @@
+{
+  "name": "Project Northstar: FINAL 92 — The Lock-In",
+  "short_name": "FINAL 92",
+  "description": "A private final-quarter command system for October through December 2026, powered by the 52-brick Ironwall, recovery, strength, goals, reviews, and safe backup migration.",
+  "id": "./",
+  "start_url": "./index.html#home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#010202",
+  "theme_color": "#090c0a",
+  "categories": [
+    "productivity",
+    "health",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

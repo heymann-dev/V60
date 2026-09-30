@@ -1,0 +1,9 @@
+{
+  "name": "northstar-final-92",
+  "version": "60.0.0",
+  "private": true,
+  "description": "Verification for the Project Northstar: FINAL 92 public PWA repository.",
+  "scripts": {
+    "test": "node scripts/verify-repository.mjs"
+  }
+}

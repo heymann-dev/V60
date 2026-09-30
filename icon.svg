@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Project 52 Ironwall Command shield</title>
+  <desc id="desc">A bleak black, oxidized-steel, and warning-red military shield marked Ironwall 52.</desc>
+  <defs>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#171b18"/>
+      <stop offset="1" stop-color="#020302"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9faaa2"/>
+      <stop offset="0.5" stop-color="#4f5752"/>
+      <stop offset="1" stop-color="#858f88"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" seed="52" result="noise"/>
+      <feColorMatrix in="noise" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .18 0"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="88" fill="#010202"/>
+  <rect x="18" y="18" width="476" height="476" rx="70" fill="url(#field)" stroke="#6f312d" stroke-width="10"/>
+  <rect x="35" y="35" width="442" height="442" rx="55" fill="#fff" opacity=".08" filter="url(#grain)"/>
+  <path d="M256 70 405 126v113c0 92-55 160-149 207-94-47-149-115-149-207V126z" fill="#080b09" stroke="url(#metal)" stroke-width="14"/>
+  <path d="M157 162h198M142 211h228M142 260h228" stroke="#626b65" stroke-width="12" opacity=".42"/>
+  <text x="256" y="327" text-anchor="middle" fill="#c8cbc3" font-family="Arial Narrow,Arial,sans-serif" font-size="118" font-weight="900" letter-spacing="-7">52</text>
+  <text x="256" y="380" text-anchor="middle" fill="#9b4039" font-family="Arial Narrow,Arial,sans-serif" font-size="38" font-weight="900" letter-spacing="8">PROJECT</text>
+</svg>
